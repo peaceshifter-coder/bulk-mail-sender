@@ -1,0 +1,24 @@
+🔑 Gmail SMTP Setup
+Since Gmail no longer supports direct login with your normal password for apps, you must use an App Password.
+
+Go to your Google Account Security page.
+
+Enable 2-Step Verification.
+
+Open Google App Passwords.
+
+Select:
+
+App: Mail
+
+Device: Other → Name it BulkMailer
+
+Copy the 16-character password Google gives you.
+
+Use this App Password in the Streamlit app instead of your normal password.
+
+Gmail Sending Limits:
+
+Free Gmail: 500 emails/day.
+
+Google Workspace: 2,000 emails/day.
